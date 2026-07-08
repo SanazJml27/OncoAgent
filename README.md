@@ -188,8 +188,4 @@ and must not be used to make real healthcare decisions for any real patient.
 Anyone experiencing a possible medical emergency should contact local
 emergency services directly.
 
-## Author
 
-Built by Sanaz Jamalzadeh, PhD — AI & Digital Health Innovation.
-Background in oncology and digital pathology, with a focus on privacy-first
-health AI and European health data regulation (EHDS, EU AI Act).
