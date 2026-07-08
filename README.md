@@ -1,8 +1,8 @@
 # OncoAgent — Multi-Agent AI System for Oncology Visit Preparation
 
 A small, fully-runnable demonstration of agentic AI system design applied to
-health: a pipeline of specialized agents that turns a patient's free-text
-notes into a safe, structured, source-grounded visit-preparation summary —
+health, a pipeline of specialized agents that turns a patient's free-text
+notes into a safe, structured, source-grounded visit-preparation summary
 with PII redaction, rule-based safety triage, retrieval-augmented guidance,
 and a generator/critic self-revision loop.
 
@@ -12,10 +12,10 @@ and a generator/critic self-revision loop.
 
 ## Why this project
 
-Most "AI agent" demos are generic task-runners. This one is built around a
-real, narrow health workflow — the few minutes before an oncology follow-up
+This demo is built around a
+real, narrow health workflow, the few minutes before an oncology follow-up
 visit, where patients are asked to self-report symptoms and often forget
-their most important questions — and shows the agent-engineering patterns
+their most important questions, and shows the agent-engineering patterns
 that actually matter for that kind of workflow:
 
 - **Tool/agent decomposition** — each agent has one job and a narrow
