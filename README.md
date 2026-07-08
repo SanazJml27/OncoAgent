@@ -1,4 +1,4 @@
-# OncoAgent Multi-Agent AI System for Oncology Visit Preparation
+# OncoAgent: Multi-Agent AI System for Oncology Visit Preparation
 
 A small, fully-runnable demonstration of agentic AI system design applied to
 health, a pipeline of specialized agents that turns a patient's free-text
