@@ -7,7 +7,7 @@ with PII redaction, rule-based safety triage, retrieval-augmented guidance,
 and a generator/critic self-revision loop.
 
 > **This is a portfolio/demo project, not a medical device.** The knowledge
-> base is synthetic and written for demonstration only — it must never be
+> base is synthetic and written for demonstration only, it must never be
 > used for real clinical decisions. See [Disclaimer](#disclaimer).
 
 ## Why this project
