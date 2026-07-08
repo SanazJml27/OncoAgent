@@ -1,0 +1,22 @@
+[
+  {
+    "patient_id": "demo-patient-001",
+    "cancer_type": "breast",
+    "free_text_notes": "My name is Anna Virtanen, born 1978-04-12, phone 0401234567. Since my last visit on 2026-05-10 I've had a lot of fatigue and my left shoulder joint has been aching most days. I'm also more forgetful than usual. I am currently on letrozole. My email is anna.virtanen@example.com if the clinic needs to reach me."
+  },
+  {
+    "patient_id": "demo-patient-002",
+    "cancer_type": "lung",
+    "free_text_notes": "Patient Markus Salo, SSN 010190-123X, reports new shortness of breath climbing stairs over the last two weeks, occasional cough with mild blood streaking this morning, and reduced appetite. Currently on osimertinib. Contact number +358 40 555 1212."
+  },
+  {
+    "patient_id": "demo-patient-003",
+    "cancer_type": "colorectal",
+    "free_text_notes": "I'm doing okay overall. Some numbness in my fingers after chemo sessions, and bowel habits have been a bit more irregular than usual, nothing dramatic. On FOLFOX currently. Would like to ask about the tumor marker trend at my next appointment."
+  },
+  {
+    "patient_id": "demo-patient-004",
+    "cancer_type": "lung",
+    "free_text_notes": "Sudden severe chest pain and difficulty breathing since this morning, feels like pressure, also dizzy and sweating. On pembrolizumab."
+  }
+]

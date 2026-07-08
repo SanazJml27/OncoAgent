@@ -1,0 +1,62 @@
+[
+  {
+    "snippet_id": "kb-001",
+    "cancer_type": "breast",
+    "topic": "staging_questions",
+    "text": "Ahead of a breast cancer follow-up visit, patients often find it useful to ask their oncologist to explain the current stage and receptor status (e.g. hormone receptor and HER2 status) in plain language, and how those factors are shaping the treatment plan."
+  },
+  {
+    "snippet_id": "kb-002",
+    "cancer_type": "breast",
+    "topic": "side_effects",
+    "text": "Common side effects patients on hormone therapy or chemotherapy report include fatigue, joint discomfort, and changes in mood or memory. Writing these down before a visit, with rough timing and severity, helps the care team adjust supportive care."
+  },
+  {
+    "snippet_id": "kb-003",
+    "cancer_type": "lung",
+    "topic": "staging_questions",
+    "text": "For lung cancer, patients frequently ask about biomarker or genetic testing results (such as EGFR, ALK, or PD-L1 status), since these can determine eligibility for targeted therapy or immunotherapy rather than standard chemotherapy alone."
+  },
+  {
+    "snippet_id": "kb-004",
+    "cancer_type": "lung",
+    "topic": "side_effects",
+    "text": "Shortness of breath, cough, and changes in appetite are frequently tracked between visits for lung cancer patients. Noting whether symptoms are new, worsening, or stable helps distinguish disease progression from treatment side effects."
+  },
+  {
+    "snippet_id": "kb-005",
+    "cancer_type": "colorectal",
+    "topic": "staging_questions",
+    "text": "Colorectal cancer patients often ask about whether imaging shows any change in tumor markers such as CEA, and whether surgical margins or lymph node involvement affect the recommended next steps."
+  },
+  {
+    "snippet_id": "kb-006",
+    "cancer_type": "colorectal",
+    "topic": "side_effects",
+    "text": "Changes in bowel habits, abdominal discomfort, and effects of chemotherapy such as numbness in the hands or feet (peripheral neuropathy) are commonly discussed topics for colorectal cancer follow-ups."
+  },
+  {
+    "snippet_id": "kb-007",
+    "cancer_type": "prostate",
+    "topic": "staging_questions",
+    "text": "Prostate cancer patients often want clarity on their current PSA trend and Gleason score, and how these inform whether active surveillance, surgery, radiation, or hormone therapy is being recommended."
+  },
+  {
+    "snippet_id": "kb-008",
+    "cancer_type": "prostate",
+    "topic": "side_effects",
+    "text": "Urinary changes, fatigue, and effects related to hormone therapy such as hot flashes are commonly tracked between visits for prostate cancer patients, and are useful to summarize with approximate frequency."
+  },
+  {
+    "snippet_id": "kb-009",
+    "cancer_type": "general",
+    "topic": "emotional_wellbeing",
+    "text": "Many patients find it helpful to mention emotional wellbeing at oncology visits, not only physical symptoms, since anxiety and low mood are common and manageable with the right referral or support."
+  },
+  {
+    "snippet_id": "kb-010",
+    "cancer_type": "general",
+    "topic": "logistics",
+    "text": "Bringing a written, prioritized list of the two or three most important questions tends to make the most of limited visit time, since open-ended discussions can run out of time before the most pressing concerns are addressed."
+  }
+]
