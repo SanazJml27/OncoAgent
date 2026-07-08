@@ -131,13 +131,6 @@ demo patient or type your own (fictional) notes, and shows the redaction,
 structured intake, safety flags, retrieved guidance, generated summary, and
 full agent trace in the browser.
 
-To get a shareable live link for a GitHub profile: push this repo to GitHub,
-then go to [share.streamlit.io](https://share.streamlit.io), sign in with
-GitHub, and deploy pointing at `app.py` on your default branch. No secrets or
-API keys are required for the default offline mode, so it deploys as-is;
-add `ANTHROPIC_API_KEY`/`OPENAI_API_KEY` as Streamlit Cloud "secrets" later
-if you want the richer LLM-generated summaries live.
-
 ### Enabling real model backends
 
 Each of the three swap points is a single environment variable plus the
@@ -167,18 +160,6 @@ CriticAgent  :: review -> passed=False, issues=["Urgency is urgent but the
 SummaryAgent :: revise_attempt_2 -> draft length=1687 chars
 CriticAgent  :: review -> passed=True, issues=[]
 ```
-
-## Design notes / what I'd do differently for production
-
-- Replace the knowledge base with real, licensed clinical guideline content
-  behind a proper retrieval pipeline (chunking, citation-preserving
-  metadata), not synthetic snippets.
-- Replace regex/TF-IDF defaults with the HF-backed options as the primary
-  path once evaluated on real (properly consented, de-identified) data.
-- Add a proper evaluation harness for the critic agent (precision/recall on
-  a labeled red-flag test set) rather than a hand-written rule list.
-- Wire the structured `PatientIntake` output into real FHIR resources
-  (Condition, Observation) instead of the current FHIR-ish approximation.
 
 ## Disclaimer
 
